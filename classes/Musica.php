@@ -20,10 +20,4 @@ class Musica extends Midia
     }
 }
 
-$musica = new Musica(
-    "The Weeknd",
-    "Call Out My Name",
-    228
-);
-
-echo $musica->reproduzir();
+?>

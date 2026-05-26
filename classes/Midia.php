@@ -40,11 +40,4 @@ class Musica extends Midia
             " (" . $this->getDuracao() . " segundos)";
     }
 }
-
-$musica = new Musica(
-    "Call Out My Name",
-    228,
-    "The Weeknd"
-);
-
-echo $musica->reproduzir();
+?>
