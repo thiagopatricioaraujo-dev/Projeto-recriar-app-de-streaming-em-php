@@ -19,3 +19,4 @@ class videoCurto extends midia
         return " [video curto] exibindo: '{this->getTitulo()}' na plataforma {$this->plataforma} ({$this->getduracaoSegundos()})";
     }
 }
+?>
