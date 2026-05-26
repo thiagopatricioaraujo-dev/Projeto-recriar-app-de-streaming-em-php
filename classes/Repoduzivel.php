@@ -8,3 +8,4 @@ interface reproduzivel
 {
     public function artista(): string;
 }
+?>
