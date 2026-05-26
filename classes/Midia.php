@@ -22,22 +22,4 @@ abstract class Midia
 
     abstract public function reproduzir(): string;
 }
-
-class Musica extends Midia
-{
-    public function __construct(
-        string $titulo,
-        int $duracao,
-        private string $artista
-    ) {
-        parent::__construct($titulo, $duracao);
-    }
-
-    public function reproduzir(): string
-    {
-        return "Tocando agora: " . $this->getTitulo() .
-            " - " . $this->artista .
-            " (" . $this->getDuracao() . " segundos)";
-    }
-}
 ?>

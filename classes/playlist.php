@@ -6,8 +6,9 @@ require_once "Reproduzivel.php";
 
 class Playlist
 {
- @var Reproduzivel[]
-
+    /**
+     * @var Reproduzivel[]
+     */
     private array $midias = [];
 
     public function adicionarMidia(Reproduzivel $midia): void

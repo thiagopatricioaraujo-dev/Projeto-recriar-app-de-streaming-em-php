@@ -2,10 +2,8 @@
 
 declare(strict_types=1);
 
-namespace App;
-
-interface reproduzivel
+interface Reproduzivel
 {
-    public function artista(): string;
+    public function reproduzir(): string;
 }
 ?>
